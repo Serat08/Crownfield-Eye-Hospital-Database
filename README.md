@@ -46,8 +46,3 @@ From a terminal: `mysql -u root -p < 01_schema.sql`, then the same for each file
 ## My contribution
 
 Schema implementation with extra constraints, the 13-test integrity log, my four queries plus the stored procedure and the trigger, and the security work (roles, hashing, secure coding, transactions). Group work: scope, dataset analysis and the ER diagram.
-
-## AI-use declaration
-
-TODO: confirm this wording against the university AI policy before submitting.
-I used an AI assistant (Claude, Anthropic) for guidance and review during the project: explaining concepts, reviewing my design against the brief and rubric, suggesting SQL structure, and drafting slide text from my own results. I typed, ran and tested the SQL in MySQL Workbench myself, and the screenshots are my own.
