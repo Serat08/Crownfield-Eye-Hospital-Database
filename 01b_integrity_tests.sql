@@ -1,14 +1,4 @@
--- =====================================================================
--- CPU4103 Part B test log: integrity constraints and controlled UPDATE / DELETE
--- Student: Serat Choudhury (G1411615). Module: CPU4:103 Introduction to Database.
--- Run AFTER 01_schema.sql. Run each TEST block on its own (select it, then Execute) when you
--- screenshot it; tests marked "EXPECT: error" can stop a whole-script run in some settings.
--- Screenshot each result and caption it "Figure n: TEST x". The error numbers below were
--- checked by running this file in MySQL Workbench 8.4 on 30/10/2026: every test behaved as
--- expected. Copy the exact number and message you get into your own test log.
--- Tests that change data run inside a transaction and end with ROLLBACK, so the
--- dataset is unchanged afterwards. Replace ROLLBACK with COMMIT to keep a change.
--- =====================================================================
+
 USE crownfield_eye;
 
 -- TEST 1: duplicate primary key is rejected
