@@ -1,20 +1,3 @@
--- =====================================================================
--- CPU4103 Crownfield Eye Hospital: Part B schema and data (individual implementation)
--- Student: Serat Choudhury (G1411615). Module: CPU4:103 Introduction to Database.
--- Group: Daniel Camargo Moreira (G1418730), Natalin Tek Ozler (G1438117). The ER diagram is the
--- group's shared artefact; this implementation, its constraints and the tests are my own work.
--- Implements the GROUP ER DIAGRAM exactly: same 11 tables, columns, data types, primary keys,
--- foreign keys, nullability and relationships. Names are lowercase and plural, as in the diagram.
--- Added on top of the diagram (it cannot show these): UNIQUE, CHECK and DEFAULT constraints
--- and two secondary indexes. Each is marked "EXTRA" below so it can be explained in the report.
--- Target: MySQL 8.0.16 or later (CHECK constraints are enforced from 8.0.16).
--- Run in MySQL Workbench or: mysql -u root -p < 01_schema.sql
--- WARNING: drops and recreates the crownfield_eye database each run.
--- Table names are lowercase because they are case-sensitive on Linux servers.
--- Not in the diagram, so NOT in this file: the patient password hash column.
--- 04_security.sql adds it with ALTER TABLE for the Part D protection work.
--- Rows marked (App1) come from Appendix 1; all other rows are SYNTHETIC.
--- =====================================================================
 
 DROP DATABASE IF EXISTS crownfield_eye;
 CREATE DATABASE crownfield_eye CHARACTER SET utf8mb4;
