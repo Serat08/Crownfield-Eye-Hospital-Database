@@ -8,7 +8,7 @@
 
 ## What this repository contains
 
-My individual MySQL implementation of the group's ER diagram (11 tables in 3NF), with data,
+My individual MySQL implementation of the group's ER diagram, with data,
 integrity tests, six SQL queries (including a stored procedure and a trigger) and a security model.
 The ER diagram is the group's shared artefact. The implementation, constraints, tests and SQL
 features in this repository are my own work.
