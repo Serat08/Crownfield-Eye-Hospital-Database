@@ -1,6 +1,5 @@
 -- =====================================================================
--- CPU4103 Part C: individual queries (GROUP BY/HAVING, 3-table INNER JOIN, LEFT JOIN, subquery)
--- Student: Serat Choudhury (G1411615). Module: CPU4:103 Introduction to Database.
+-- Part C: individual queries (GROUP BY/HAVING, 3-table INNER JOIN, LEFT JOIN, subquery)
 -- =====================================================================
 
 USE crownfield_eye;
