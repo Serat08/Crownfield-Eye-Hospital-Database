@@ -355,7 +355,7 @@ INSERT INTO followupplans (FollowUpID, AppointmentID, DueDate, Priority, FollowU
 ('F016','A017','2026-11-24','Routine','Cancelled','Cataract listing');
 
 -- ---------------------------------------------------------------------
--- 4. Evidence: row counts (screenshot this result)
+-- 4. Evidence: row counts
 -- ---------------------------------------------------------------------
 SELECT 'patients' AS TableName, COUNT(*) AS RowsLoaded FROM patients
 UNION ALL SELECT 'specialties', COUNT(*) FROM specialties
