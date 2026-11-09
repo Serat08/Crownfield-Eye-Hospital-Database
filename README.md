@@ -2,8 +2,9 @@
 
 **Module:** CPU4:103 Introduction to Database (Global Banking School)
 **Student:** Serat Choudhury, G1411615
-**Group:** Daniel Camargo Moreira (G1418730), Natalin Tek Ozler (G1438117)
-**Assessment:** summative database build, fictional Flytech Ltd scenario for Crownfield Eye Hospital
+**Group Members:** Daniel Camargo Moreira (G1418730), Natalin Tek Ozler (G1438117)
+**Group:** 1
+**Assessment:** Summative database build for Crownfield Eye Hospital
 
 ## What this repository contains
 
@@ -46,7 +47,3 @@ From a terminal: `mysql -u root -p < 01_schema.sql`, then the same for each file
 ## My contribution
 
 Schema implementation with extra constraints, the 13-test integrity log, my four queries plus the stored procedure and the trigger, and the security work (roles, hashing, secure coding, transactions). Group work: scope, dataset analysis and the ER diagram.
-
-## AI-use declaration
-
-I used an AI assistant (Claude, Anthropic) during this project. It explained concepts, reviewed my work against the brief and rubric, suggested SQL for the queries, procedure, trigger, security and transaction scripts, and helped draft the slides, speaker notes and report text from my own results. I typed or pasted, ran and tested every script in MySQL Workbench myself, and the screenshots and results are my own. I have checked everything in this repository and can explain every part of it.
